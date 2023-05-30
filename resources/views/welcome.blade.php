@@ -7,6 +7,9 @@
         <title>Learn Redis Through Examples</title>
     </head>
     <body class="antialiased">
-        <h1>Hello, you are visitor #{{ $visits }}</h1>
+        <h1>Some Video</h1>
+        <p>
+            This video has been downloaded {{ $downloads ?? 'no' }} times.
+        </p>
     </body>
 </html>
